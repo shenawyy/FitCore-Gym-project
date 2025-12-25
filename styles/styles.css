@@ -1,0 +1,617 @@
+/* *global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.spacing {
+    margin-top: 20px;
+}
+
+.gray-text {
+    color: #4A5565;
+}
+
+.footer_gray-text {
+    color: #99A1A3;
+}
+
+.line_height {
+    line-height: 32px;
+}
+
+.font_sizes {
+    font-size: 20px;
+}
+
+.font_waight {
+    font-weight: 400;
+}
+
+.cards_size_h3 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.cards_size_p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.btn_styles {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 16px 32px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.form_text {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #364153;
+}
+
+.footer_text_size {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+/* *global styles */
+/* ---------------------------------------*/
+
+/* ?hero-section starting */
+
+.hero {
+    margin-top: 60px;
+
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    margin: 80px;
+}
+
+.container .hero_content h1 {
+    font-size: 60px !important;
+    line-height: 75px;
+    font-weight: 700;
+    color: #101828;
+}
+
+.container .hero_content {
+    width: 50%;
+
+}
+
+.container .hero_content .sec_btn {
+    background-color: transparent;
+    color: #344054;
+    border: 2px solid #D0D5DD;
+    margin-left: 10px;
+}
+
+.hero_img {
+    width: 30%;
+    margin-left: 80px;
+}
+
+.hero_img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* ?hero-section ending */
+/* ---------------------------------------*/
+/* *why choose us-section starting */
+.why_choose_us {
+    height: fit-content;
+}
+
+.why_choose_us .container {
+    height: 100%;
+    padding: 80px 100px;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #101828;
+    margin-bottom: 20px;
+}
+
+.why_cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 36px;
+    width: 100%;
+}
+
+.fcard {
+    /* margin: 80px; */
+    text-align: center;
+    background-color: #DBEAFE;
+    border: 1px solid #93C5FD;
+    border-radius: 16px;
+    padding: 32px;
+    width: 30%;
+}
+
+.scard {
+    /* margin: 80px; */
+    text-align: center;
+    background-color: #D0FAE5;
+    border: 1px solid #A4F4CF;
+    border-radius: 16px;
+    padding: 32px;
+    width: 30%;
+
+}
+
+.tcard {
+
+    text-align: center;
+    background-color: #F3E8FF;
+    border: 1px solid #E9D4FF;
+    border-radius: 16px;
+    padding: 32px;
+    width: 30%;
+}
+
+.square_box {
+    margin: auto;
+    width: 60px;
+    padding: 16px;
+    background-color: #155DFC;
+    border-radius: 12px;
+}
+
+.square_icon {
+    width: 28px;
+    height: 28px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.square_box2 {
+    margin: auto;
+    width: 60px;
+    padding: 16px;
+    background-color: #009966;
+    border-radius: 12px;
+}
+
+.square_icon2 {
+    width: 28px;
+    height: 28px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.square_box3 {
+    margin: auto;
+    width: 60px;
+    padding: 16px;
+    background-color: #9810FA;
+    border-radius: 12px;
+}
+
+.square_icon3 {
+    width: 28px;
+    height: 28px;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
+.more_benefits {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.image {
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.more_benefits .image img {
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.more_benefits .content h4 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #101828;
+    margin-bottom: 20px;
+}
+
+
+.more_benefits .content p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #364153;
+    margin-bottom: 30px;
+}
+
+.broder_one {
+    border-left: 4px solid #000000;
+    padding-left: 20px;
+}
+
+.broder_two {
+    border-left: 4px solid #000000;
+    padding-left: 20px;
+}
+
+.broder_three {
+    border-left: 4px solid #000000;
+    padding-left: 20px;
+}
+
+/* *why choose us-section ending */
+
+/* ----------------------------------------*/
+
+/* ?members section starting  */
+.testimonials {
+    width: 100%;
+    background-color: #F9FAFB;
+}
+
+.testimonials .container {
+    padding: 80px 100px;
+}
+
+.testimonials .title h2 {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #101828;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonials .title p {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.card_one {
+    background-color: #EFF6FF;
+    border-radius: 16px;
+    padding: 24px;
+    width: 28%;
+    border: #BEDBFF 1px solid;
+}
+
+.card_two {
+    background-color: #ECFDF5;
+    border-radius: 16px;
+    padding: 24px;
+    width: 28%;
+    border: #A5F4CF 1px solid;
+}
+
+.card_three {
+    background-color: #FAF5FF;
+    border-radius: 16px;
+    padding: 24px;
+    width: 28%;
+    border: #E9D4FF 1px solid;
+}
+
+.card_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.author_img img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.author_info h4 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.author_info p {
+    font-size: 16px;
+    line-height: 10px;
+    font-weight: 400;
+    color: #667085;
+}
+
+.statisticts {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    width: 90%;
+    border: #E5EBF2 1px solid;
+    border-radius: 16px;
+    background-color: #F1F5F9;
+}
+
+.statisticts h5 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+
+}
+
+.statisticts p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* ?members section ending  */
+/* ----------------------------------------*/
+
+/* *membership form section starting */
+.memberShip_form {
+    padding: 80px 100px;
+    background-color: inherit;
+}
+
+.memberShip_form .title h5 {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.memberShip_form .title p {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form {
+    background-color: #F9FAFB;
+    border-radius: 16px;
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+}
+
+form p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+form button {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 16px 32px;
+    border: none;
+}
+
+.lables {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #364153;
+}
+
+
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    background-color: #F9FAFB;
+}
+
+.first_name,
+.last_name {
+    width: 48%;
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
+
+.first_name {
+    margin-right: 22px;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    resize: vertical;
+    height: 100px;
+    background-color: #F9FAFB;
+
+}
+
+.seletions {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    background-color: #F9FAFB;
+}
+
+/* *membership form section ending */
+/* ----------------------------------------*/
+
+/* ?Footer section starting */
+.footer_sec {
+    height: 500px;
+    background-color: #101828;
+    padding: 60px 100px;
+    color: #FFFFFF;
+}
+
+.footer_sec .conteiner {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item_footer_one {
+    width: 50%;
+
+}
+
+.item_footer_two {
+    width: 25%;
+
+}
+
+.item_footer_three {
+    width: 25%;
+    margin-top: 60px;
+}
+
+.item_footer_one h5 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.item_footer_one p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.item_footer_one a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+
+.item_footer_two h5 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.item_footer_two a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.item_footer_three h5 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.rights {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.bottom_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_links a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #99A1A3;
+    margin: 10px;
+
+}
+
+
+
+/* ?Footer section ending */
